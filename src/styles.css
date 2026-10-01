@@ -1,0 +1,123 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-display: "Fraunces", Georgia, serif;
+
+  --color-bg: #f3eee4;
+  --color-fg: #1c1915;
+  --color-surface: #fffdf8;
+  --color-muted: #6a6358;
+  --color-primary: #7a2e2e;
+  --color-primary-fg: #faf6f0;
+  --color-border: #ddd4c5;
+  --color-accent: #2f4a56;
+  --color-paper: #ebe4d6;
+  --color-ink-soft: #3f3a33;
+  --color-chip: #efe8dc;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.prose-med p {
+  font-family: var(--font-serif);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--color-ink-soft);
+}
+
+.prose-med strong {
+  color: var(--color-fg);
+  font-weight: 600;
+}
+
+@media print {
+  nav,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+    color: black;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .page-break {
+    break-before: page;
+  }
+  img,
+  figure,
+  aside,
+  table {
+    break-inside: avoid;
+  }
+  table {
+    min-width: 0 !important;
+    font-size: 10.5px;
+    width: 100%;
+  }
+  th,
+  td {
+    padding: 5px 6px !important;
+    word-break: break-word;
+  }
+  img {
+    max-height: 280px;
+    object-fit: contain;
+  }
+}

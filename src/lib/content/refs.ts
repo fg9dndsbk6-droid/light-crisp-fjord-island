@@ -1,0 +1,44 @@
+export const references = [
+  {
+    id: "robbins",
+    text: "Kumar V, Abbas AK, Aster JC. Robbins & Cotran Pathologic Basis of Disease. 10. ed. Philadelphia: Elsevier; 2021. Capítulos de inflamação, reparo e doenças dos leucócitos.",
+  },
+  {
+    id: "ross",
+    text: "Pawlina W, Ross MH. Histologia: texto e atlas. Correlações com biologia celular e molecular. 8. ed. Rio de Janeiro: Guanabara Koogan. Capítulos de sangue e tecido conjuntivo.",
+  },
+  {
+    id: "abbas",
+    text: "Abbas AK, Lichtman AH, Pillai S. Imunologia celular e molecular. 10. ed. Rio de Janeiro: Guanabara Koogan. Linhagens de mastócitos/basófilos, apresentação de antígeno, hipersensibilidade tipo I.",
+  },
+  {
+    id: "wintrobe",
+    text: "Greer JP et al. Wintrobe’s Clinical Hematology. Diagnóstico morfológico de leucócitos e plaquetas no esfregaço.",
+  },
+  {
+    id: "light",
+    text: "Light RW. Pleural Diseases. Critérios de Light para diferenciação de transudato e exsudato pleural.",
+  },
+  {
+    id: "aula",
+    text: "Aulas de Fisiopatologia — Prof. Percicote (11/08, 18/08 e 25/08/2026). Notas de Breno Holzmann. Figuras extraídas do material de aula, com fins exclusivamente didáticos.",
+  },
+];
+
+export const glossary: { term: string; def: string }[] = [
+  { term: "Diapedese", def: "Passagem do leucócito entre células endoteliais, da luz vascular para o interstício." },
+  { term: "Quimiotaxia", def: "Migração orientada ao longo de um gradiente de quimioatraentes (C5a, LTB₄, IL-8, fMLP)." },
+  { term: "Opsonização", def: "Revestimento do micróbio por IgG ou C3b que facilita a fagocitose." },
+  { term: "Exsudato", def: "Líquido inflamatório rico em proteína e células, por aumento de permeabilidade." },
+  { term: "Transudato", def: "Ultrafiltrado pobre em proteína, por desequilíbrio de Starling, endotélio íntegro." },
+  { term: "Tecido de granulação", def: "Tecido jovem de reparo: capilares novos, fibroblastos e leucócitos residuais." },
+  { term: "Granuloma", def: "Agregado organizado de macrófagos epitelióides, com ou sem gigantes e necrose." },
+  { term: "Célula epitelióide", def: "Macrófago ativado, citoplasma abundante, pouco fagocítico, muito secretor." },
+  { term: "Caseum", def: "Necrose coagulativa “de queijo” no centro de granulomas (clássica da TB)." },
+  { term: "Hialômero", def: "Zona periférica clara da plaqueta — citoesqueleto e sistema canalicular." },
+  { term: "Granulômero", def: "Zona central densa da plaqueta — grânulos alfa, delta e organelas." },
+  { term: "Selectinas", def: "Moléculas de adesão do rolamento leucocitário (E e P no endotélio; L no leucócito)." },
+  { term: "Integrinas", def: "Adesão firme (LFA-1/Mac-1 a ICAM-1) e âncora célula–matriz." },
+  { term: "TGF-β", def: "Citocina-chave da fibrogênese: mais colágeno, menos MMPs." },
+  { term: "VEGF", def: "Fator central da angiogênese no tecido de granulação." },
+];

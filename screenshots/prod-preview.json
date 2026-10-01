@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Apostila FisioPatho",
+      "hasCanvas": false,
+      "bodyTextLen": 1416,
+      "bodyTextHash": "d7df0d068bac065c615e1420b5d0d9e44fa97fb50f21f7c2aa7f6c08b0a379a1",
+      "bodyTextPrefix": "Ir ao conteúdo FisioPatho APOSTILA 0/4 capítulos PDF SUMÁRIO Cap",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/prod-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Apostila FisioPatho",
+      "hasCanvas": false,
+      "bodyTextLen": 1246,
+      "bodyTextHash": "865ac69239b3b3acedd1cf015e60b107a7724e3116d3ed409e3d429aa2168a88",
+      "bodyTextPrefix": "Ir ao conteúdo FisioPatho PDF MEDICINA · FISIOPATOLOGIA Inflamaç",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/prod-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/prod-preview.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
